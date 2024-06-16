@@ -63,6 +63,20 @@ elif sidebar_choice == 'Recommendations':
 
     ![BMI Categories](https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.png)
 
+    **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+    - **Public Health Officials**: 
+        - Develop community programs that promote regular BMI screenings and provide resources for weight management.
+        - Implement public health campaigns that emphasize the importance of maintaining a healthy BMI.
+        - Partner with local organizations to create support groups for weight management.
+    - **Healthcare Providers**: 
+        - Educate patients on the importance of maintaining a healthy BMI and provide personalized weight management plans.
+        - Offer regular BMI checks during routine visits and track progress over time.
+        - Provide referrals to nutritionists and dietitians for specialized support.
+    - **Policymakers**: 
+        - Support policies that increase access to healthy foods and safe places for physical activity.
+        - Advocate for school programs that promote physical education and healthy eating habits.
+        - Fund initiatives that address food deserts and improve community access to nutritious foods.
+
     ### 🚭 Quit Smoking
 
     **1. Understand the Risks:**
@@ -76,6 +90,20 @@ elif sidebar_choice == 'Recommendations':
 
     ![Smoking Risks](https://www.cdc.gov/tobacco/basic_information/health_effects/images/health-effects-infographic-600px.png)
 
+    **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+    - **Public Health Officials**: 
+        - Launch anti-smoking campaigns and provide resources for smoking cessation programs.
+        - Offer free or subsidized smoking cessation programs and support groups.
+        - Implement smoke-free policies in public areas and workplaces.
+    - **Healthcare Providers**: 
+        - Offer smoking cessation support and resources during patient visits.
+        - Prescribe smoking cessation aids such as nicotine patches or medications.
+        - Follow up with patients regularly to track their progress and provide ongoing support.
+    - **Policymakers**: 
+        - Implement and enforce policies that restrict tobacco advertising and increase taxes on tobacco products to reduce smoking rates.
+        - Fund research on smoking cessation and its impact on public health.
+        - Support legislation that bans smoking in public places and provides resources for smokers who want to quit.
+
     ### 🥗 Exercise and Eat Healthy
 
     **1. Regular Physical Activity:**
@@ -85,6 +113,20 @@ elif sidebar_choice == 'Recommendations':
     - Eat a variety of nutrient-rich foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. Limit processed foods, sugars, and unhealthy fats.
 
     ![Exercise and Healthy Eating](https://www.verywellfit.com/thmb/7m1A9Z6SY_hR8nkp2gBPTrdJdug=/fit-in/1500x1250/filters:no_upscale():max_bytes(150000):strip_icc()/fitness-weightloss-5793d03c3df78c3276e2b45d.jpg)
+
+    **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+    - **Public Health Officials**: 
+        - Promote physical activity through community events and accessible public spaces.
+        - Develop educational campaigns that emphasize the importance of a balanced diet and regular exercise.
+        - Partner with schools and workplaces to implement wellness programs.
+    - **Healthcare Providers**: 
+        - Encourage patients to incorporate regular exercise and balanced diets into their daily routines.
+        - Provide resources and referrals to nutritionists and fitness experts.
+        - Monitor patients' progress and adjust recommendations as needed.
+    - **Policymakers**: 
+        - Support policies that ensure healthy food options are available and affordable.
+        - Create safe environments for physical activity, such as parks and recreational facilities.
+        - Fund programs that provide nutritional education and fitness classes to underserved communities.
 
     ### 🩺 Manage Cholesterol
 
@@ -98,6 +140,20 @@ elif sidebar_choice == 'Recommendations':
     - Follow medical advice for cholesterol-lowering medications and regularly monitor your cholesterol levels.
 
     ![Cholesterol](https://www.cdc.gov/cholesterol/images/what-is-cholesterol-800.jpg)
+
+    **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+    - **Public Health Officials**: 
+        - Raise awareness about the importance of cholesterol management through educational campaigns.
+        - Provide community screening programs for cholesterol levels.
+        - Offer workshops and resources on heart-healthy diets and lifestyles.
+    - **Healthcare Providers**: 
+        - Monitor patients' cholesterol levels and provide guidance on maintaining heart-healthy lifestyles.
+        - Prescribe medications and offer dietary recommendations to manage cholesterol.
+        - Educate patients on the risks associated with high cholesterol and how to mitigate them.
+    - **Policymakers**: 
+        - Advocate for policies that limit trans fats in foods and promote heart-healthy dietary options.
+        - Fund public health initiatives that support cholesterol management programs.
+        - Ensure that health insurance plans cover cholesterol screenings and management.
 
     ### 💓 Control High Blood Pressure
 
@@ -115,6 +171,20 @@ elif sidebar_choice == 'Recommendations':
 
     ![High Blood Pressure](https://www.cdc.gov/bloodpressure/images/BloodPressure_Infographic.jpg)
     
+    **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+    - **Public Health Officials**: 
+        - Implement community screening programs for blood pressure and educate the public about hypertension.
+        - Provide resources and support for lifestyle changes that help manage blood pressure.
+        - Launch public awareness campaigns on the importance of regular blood pressure monitoring.
+    - **Healthcare Providers**: 
+        - Provide comprehensive management plans for patients with high blood pressure, including lifestyle modifications and medications.
+        - Monitor patients' blood pressure regularly and adjust treatment plans as needed.
+        - Educate patients on the risks of uncontrolled blood pressure and how to manage it effectively.
+        - **Policymakers**:
+        - Support legislation that promotes heart-healthy environments, such as reducing sodium in processed foods and ensuring access to affordable fresh produce.
+        - Ensure that blood pressure screening and management programs are funded and accessible.
+        - Advocate for workplace wellness programs that include blood pressure monitoring and stress management.
+
     ### 🌟 Holistic Health Approach
 
     **1. Integrate Healthy Habits:**
@@ -128,11 +198,26 @@ elif sidebar_choice == 'Recommendations':
 
     ![Holistic Health](https://www.cdc.gov/chronicdisease/images/infographics/healthy-lifestyle.png)
 
+    **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+    - **Public Health Officials**:
+        - Promote a holistic approach to health through community programs and public awareness campaigns.
+        - Develop initiatives that address multiple aspects of health and wellness simultaneously.
+        - Partner with local organizations to create comprehensive health resources for the community.
+    - **Healthcare Providers**:
+        - Encourage patients to adopt multiple healthy habits and provide support for making incremental changes.
+        - Integrate holistic health approaches into patient care plans.
+        - Offer resources and referrals to specialists in nutrition, exercise, mental health, and stress management.
+    - **Policymakers**:
+        - Advocate for comprehensive health policies that address multiple aspects of health and wellness.
+        - Ensure resources and support are available for holistic health programs in communities.
+        - Fund research and programs that explore the benefits of holistic health approaches.
+
     ### 📝 Conclusion
     Your health is your most valuable asset. By understanding and managing your BMI, quitting smoking, staying physically active, eating a balanced diet, controlling cholesterol, and managing high blood pressure, you can significantly improve your overall health and quality of life. Start today, take small steps, and stay committed to a healthier you.
 
     ![Healthy Lifestyle Conclusion](https://www.cdc.gov/chronicdisease/images/infographics/health-impact-infographic-600px.jpg)
     """)
+
 
 
 
