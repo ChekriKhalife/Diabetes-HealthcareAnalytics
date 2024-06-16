@@ -47,93 +47,176 @@ elif sidebar_choice == 'Recommendations':
     st.subheader('Comprehensive Health Recommendations')
 
     # Flash the user with engaging information about overall health recommendations
-    st.markdown("""
-    ### 🏥 Comprehensive Health Recommendations
-    Achieving and maintaining good health requires a holistic approach that includes managing your BMI, quitting smoking, staying physically active, eating a healthy diet, controlling cholesterol, and managing high blood pressure. Here’s a comprehensive guide to help you achieve your health goals:
+st.markdown("""
+### 🏥 Comprehensive Health Recommendations
+Achieving and maintaining good health requires a holistic approach that includes managing your BMI, quitting smoking, staying physically active, eating a healthy diet, controlling cholesterol, and managing high blood pressure. Here’s a comprehensive guide to help you achieve your health goals:
 
-    ![Healthy Lifestyle](https://www.cdc.gov/chronicdisease/resources/infographic/preventable/power-of-prevention.jpg)
-    
-    ### 🏋️‍♂️ Maintain a Healthy BMI
+![Healthy Lifestyle](https://www.cdc.gov/chronicdisease/resources/infographic/preventable/power-of-prevention.jpg)
 
-    **1. Calculate Your BMI:**
-    - Regularly check your BMI to ensure you are within a healthy range. A healthy BMI is between 18.5 and 24.9.
+### 🏋️‍♂️ Maintain a Healthy BMI
 
-    **2. Manage Your Weight:**
-    - If your BMI is outside the healthy range, focus on weight management strategies through a balanced diet and regular exercise.
+**1. Calculate Your BMI:**
+- Regularly check your BMI to ensure you are within a healthy range. A healthy BMI is between 18.5 and 24.9.
 
-    ![BMI Categories](https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.png)
+**2. Manage Your Weight:**
+- If your BMI is outside the healthy range, focus on weight management strategies through a balanced diet and regular exercise.
 
-    ### 🚭 Quit Smoking
+![BMI Categories](https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.png)
 
-    **1. Understand the Risks:**
-    - Smoking increases the risk of numerous health issues, including heart disease, stroke, respiratory problems, and diabetes.
+**Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+- **Public Health Officials**: 
+    - Develop community programs that promote regular BMI screenings and provide resources for weight management.
+    - Implement public health campaigns that emphasize the importance of maintaining a healthy BMI.
+    - Partner with local organizations to create support groups for weight management.
+- **Healthcare Providers**: 
+    - Educate patients on the importance of maintaining a healthy BMI and provide personalized weight management plans.
+    - Offer regular BMI checks during routine visits and track progress over time.
+    - Provide referrals to nutritionists and dietitians for specialized support.
+- **Policymakers**: 
+    - Support policies that increase access to healthy foods and safe places for physical activity.
+    - Advocate for school programs that promote physical education and healthy eating habits.
+    - Fund initiatives that address food deserts and improve community access to nutritious foods.
 
-    **2. Strategies to Quit:**
-    - Set a quit date, inform family and friends, anticipate challenges, remove tobacco products, and seek medical advice.
+### 🚭 Quit Smoking
 
-    **3. Healthy Alternatives:**
-    - Replace smoking with healthy habits such as exercise, chewing gum, or deep breathing exercises.
+**1. Understand the Risks:**
+- Smoking increases the risk of numerous health issues, including heart disease, stroke, respiratory problems, and diabetes.
 
-    ![Smoking Risks](https://www.cdc.gov/tobacco/basic_information/health_effects/images/health-effects-infographic-600px.png)
+**2. Strategies to Quit:**
+- Set a quit date, inform family and friends, anticipate challenges, remove tobacco products, and seek medical advice.
 
-    ### 🥗 Exercise and Eat Healthy
+**3. Healthy Alternatives:**
+- Replace smoking with healthy habits such as exercise, chewing gum, or deep breathing exercises.
 
-    **1. Regular Physical Activity:**
-    - Engage in at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week, along with strength training exercises twice a week.
+![Smoking Risks](https://www.cdc.gov/tobacco/basic_information/health_effects/images/health-effects-infographic-600px.png)
 
-    **2. Balanced Diet:**
-    - Eat a variety of nutrient-rich foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. Limit processed foods, sugars, and unhealthy fats.
+**Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+- **Public Health Officials**: 
+    - Launch anti-smoking campaigns and provide resources for smoking cessation programs.
+    - Offer free or subsidized smoking cessation programs and support groups.
+    - Implement smoke-free policies in public areas and workplaces.
+- **Healthcare Providers**: 
+    - Offer smoking cessation support and resources during patient visits.
+    - Prescribe smoking cessation aids such as nicotine patches or medications.
+    - Follow up with patients regularly to track their progress and provide ongoing support.
+- **Policymakers**: 
+    - Implement and enforce policies that restrict tobacco advertising and increase taxes on tobacco products to reduce smoking rates.
+    - Fund research on smoking cessation and its impact on public health.
+    - Support legislation that bans smoking in public places and provides resources for smokers who want to quit.
 
-    ![Exercise and Healthy Eating](https://www.verywellfit.com/thmb/7m1A9Z6SY_hR8nkp2gBPTrdJdug=/fit-in/1500x1250/filters:no_upscale():max_bytes(150000):strip_icc()/fitness-weightloss-5793d03c3df78c3276e2b45d.jpg)
+### 🥗 Exercise and Eat Healthy
 
-    ### 🩺 Manage Cholesterol
+**1. Regular Physical Activity:**
+- Engage in at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week, along with strength training exercises twice a week.
 
-    **1. Eat Heart-Healthy Foods:**
-    - Reduce intake of saturated and trans fats, increase omega-3 fatty acids, and eat more soluble fiber.
+**2. Balanced Diet:**
+- Eat a variety of nutrient-rich foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. Limit processed foods, sugars, and unhealthy fats.
 
-    **2. Regular Exercise:**
-    - Incorporate aerobic and strength training exercises to help manage cholesterol levels.
+![Exercise and Healthy Eating](https://www.verywellfit.com/thmb/7m1A9Z6SY_hR8nkp2gBPTrdJdug=/fit-in/1500x1250/filters:no_upscale():max_bytes(150000):strip_icc()/fitness-weightloss-5793d03c3df78c3276e2b45d.jpg)
 
-    **3. Medication and Monitoring:**
-    - Follow medical advice for cholesterol-lowering medications and regularly monitor your cholesterol levels.
+**Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+- **Public Health Officials**: 
+    - Promote physical activity through community events and accessible public spaces.
+    - Develop educational campaigns that emphasize the importance of a balanced diet and regular exercise.
+    - Partner with schools and workplaces to implement wellness programs.
+- **Healthcare Providers**: 
+    - Encourage patients to incorporate regular exercise and balanced diets into their daily routines.
+    - Provide resources and referrals to nutritionists and fitness experts.
+    - Monitor patients' progress and adjust recommendations as needed.
+- **Policymakers**: 
+    - Support policies that ensure healthy food options are available and affordable.
+    - Create safe environments for physical activity, such as parks and recreational facilities.
+    - Fund programs that provide nutritional education and fitness classes to underserved communities.
 
-    ![Cholesterol](https://www.cdc.gov/cholesterol/images/what-is-cholesterol-800.jpg)
+### 🩺 Manage Cholesterol
 
-    ### 💓 Control High Blood Pressure
+**1. Eat Heart-Healthy Foods:**
+- Reduce intake of saturated and trans fats, increase omega-3 fatty acids, and eat more soluble fiber.
 
-    **1. Healthy Diet:**
-    - Reduce sodium intake, eat potassium-rich foods, and follow the DASH diet to manage blood pressure.
+**2. Regular Exercise:**
+- Incorporate aerobic and strength training exercises to help manage cholesterol levels.
 
-    **2. Regular Physical Activity:**
-    - Engage in regular exercise to help lower and manage blood pressure.
+**3. Medication and Monitoring:**
+- Follow medical advice for cholesterol-lowering medications and regularly monitor your cholesterol levels.
 
-    **3. Stress Management:**
-    - Practice relaxation techniques, get enough sleep, and manage stress through healthy activities.
+![Cholesterol](https://www.cdc.gov/cholesterol/images/what-is-cholesterol-800.jpg)
 
-    **4. Medication and Monitoring:**
-    - Adhere to prescribed medications for high blood pressure and regularly check your blood pressure.
+**Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+- **Public Health Officials**: 
+    - Raise awareness about the importance of cholesterol management through educational campaigns.
+    - Provide community screening programs for cholesterol levels.
+    - Offer workshops and resources on heart-healthy diets and lifestyles.
+- **Healthcare Providers**: 
+    - Monitor patients' cholesterol levels and provide guidance on maintaining heart-healthy lifestyles.
+    - Prescribe medications and offer dietary recommendations to manage cholesterol.
+    - Educate patients on the risks associated with high cholesterol and how to mitigate them.
+- **Policymakers**: 
+    - Advocate for policies that limit trans fats in foods and promote heart-healthy dietary options.
+    - Fund public health initiatives that support cholesterol management programs.
+    - Ensure that health insurance plans cover cholesterol screenings and management.
 
-    ![High Blood Pressure](https://www.cdc.gov/bloodpressure/images/BloodPressure_Infographic.jpg)
-    
-    ### 🌟 Holistic Health Approach
+### 💓 Control High Blood Pressure
 
-    **1. Integrate Healthy Habits:**
-    - Combine these recommendations into your daily routine for a holistic approach to health. Regular check-ups with healthcare providers can help you stay on track.
+**1. Healthy Diet:**
+- Reduce sodium intake, eat potassium-rich foods, and follow the DASH diet to manage blood pressure.
 
-    **2. Stay Informed and Motivated:**
-    - Keep yourself educated about health risks and benefits. Use apps, support groups, and professional guidance to stay motivated.
+**2. Regular Physical Activity:**
+- Engage in regular exercise to help lower and manage blood pressure.
 
-    **3. Make Incremental Changes:**
-    - Small, consistent changes can lead to significant health improvements. Start with manageable goals and gradually build healthier habits.
+**3. Stress Management:**
+- Practice relaxation techniques, get enough sleep, and manage stress through healthy activities.
 
-    ![Holistic Health](https://www.cdc.gov/chronicdisease/images/infographics/healthy-lifestyle.png)
+**4. Medication and Monitoring:**
+- Adhere to prescribed medications for high blood pressure and regularly check your blood pressure.
 
-    ### 📝 Conclusion
-    Your health is your most valuable asset. By understanding and managing your BMI, quitting smoking, staying physically active, eating a balanced diet, controlling cholesterol, and managing high blood pressure, you can significantly improve your overall health and quality of life. Start today, take small steps, and stay committed to a healthier you.
+![High Blood Pressure](https://www.cdc.gov/bloodpressure/images/BloodPressure_Infographic.jpg)
 
-    ![Healthy Lifestyle Conclusion](https://www.cdc.gov/chronicdisease/images/infographics/health-impact-infographic-600px.jpg)
-    """)
+**Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+- **Public Health Officials**: 
+    - Implement community screening programs for blood pressure and educate the public about hypertension.
+    - Provide resources and support for lifestyle changes that help manage blood pressure.
+    - Launch public awareness campaigns on the importance of regular blood pressure monitoring.
+- **Healthcare Providers**: 
+    - Provide comprehensive management plans for patients with high blood pressure, including lifestyle modifications and medications.
+    - Monitor patients' blood pressure regularly and adjust treatment plans as needed.
+    - Educate patients on the risks of uncontrolled blood pressure and how to manage it effectively.
+    - **Policymakers**:
+    - Support legislation that promotes heart-healthy environments, such as reducing sodium in processed foods and ensuring access to affordable fresh produce.
+    - Ensure that blood pressure screening and management programs are funded and accessible.
+    - Advocate for workplace wellness programs that include blood pressure monitoring and stress management.
 
+### 🌟 Holistic Health Approach
+
+**1. Integrate Healthy Habits:**
+- Combine these recommendations into your daily routine for a holistic approach to health. Regular check-ups with healthcare providers can help you stay on track.
+
+**2. Stay Informed and Motivated:**
+- Keep yourself educated about health risks and benefits. Use apps, support groups, and professional guidance to stay motivated.
+
+**3. Make Incremental Changes:**
+- Small, consistent changes can lead to significant health improvements. Start with manageable goals and gradually build healthier habits.
+
+![Holistic Health](https://www.cdc.gov/chronicdisease/images/infographics/healthy-lifestyle.png)
+
+**Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
+- **Public Health Officials**:
+    - Promote a holistic approach to health through community programs and public awareness campaigns.
+    - Develop initiatives that address multiple aspects of health and wellness simultaneously.
+    - Partner with local organizations to create comprehensive health resources for the community.
+- **Healthcare Providers**:
+    - Encourage patients to adopt multiple healthy habits and provide support for making incremental changes.
+    - Integrate holistic health approaches into patient care plans.
+    - Offer resources and referrals to specialists in nutrition, exercise, mental health, and stress management.
+- **Policymakers**:
+    - Advocate for comprehensive health policies that address multiple aspects of health and wellness.
+    - Ensure resources and support are available for holistic health programs in communities.
+    - Fund research and programs that explore the benefits of holistic health approaches.
+
+### 📝 Conclusion
+Your health is your most valuable asset. By understanding and managing your BMI, quitting smoking, staying physically active, eating a balanced diet, controlling cholesterol, and managing high blood pressure, you can significantly improve your overall health and quality of life. Start today, take small steps, and stay committed to a healthier you.
+
+![Healthy Lifestyle Conclusion](https://www.cdc.gov/chronicdisease/images/infographics/health-impact-infographic-600px.jpg)
+""")
 
 
 elif sidebar_choice == 'BMI Calculator':
