@@ -19,7 +19,7 @@ if sidebar_choice == 'Dashboard':
     st.markdown("""
     The Diabetes Analysis Dashboard provides a comprehensive visualization of diabetes distribution across different age groups and sexes. It offers insights into how diabetes prevalence varies among young adults (18-39 years), middle-aged adults (40-59 years), and older adults (60+ years). The dashboard highlights the following key areas:
 
-    1. **Distribution of Diabetes Across Age Groups and Sexes**: This bar chart shows the percentage of individuals with diabetes across various age groups, further segmented by sex. It highlights that diabetes prevalence tends to increase with age, with a noticeable peak in the 65-69 age group.
+    1. **Distribution of Survey Participants Across Different Age Groups and Sexes (%)**: This bar chart visualizes the distribution of survey participants across various age groups, segmented by sex. It reveals the demographic spread of the participants, highlighting a significant representation in the 65-69 age group. This data helps in understanding the demographic composition of the survey respondents, which is crucial for ensuring the accuracy and relevance of public health interventions.
 
     2. **Diabetic vs Non-Diabetic Percentage by Age Group**:
         - **Young Adults (18-39 years)**: A pie chart illustrating the proportion of young adults who are diabetic versus non-diabetic.
