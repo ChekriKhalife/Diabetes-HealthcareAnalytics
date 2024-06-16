@@ -647,12 +647,20 @@ elif sidebar_choice == 'Exercise Routine Generator':
     """)
 
     # Collect user details
+
+# Example function or conditional block start
+if True:
     age = st.number_input('Enter your age:', min_value=10, max_value=100)
     weight = st.number_input('Enter your weight (in kg):', min_value=30, max_value=200)
-    height = st.number_input('Enter your height (in cm):', min_value=100, max_value 250)
+    height = st.number_input('Enter your height (in cm):', min_value=100, max_value=250)
     gender = st.selectbox('Select your gender:', ['Male', 'Female', 'Other'])
     fitness_level = st.selectbox('Select Your Fitness Level:', ['Beginner', 'Intermediate', 'Advanced'])
     goals = st.multiselect('Select Your Goals:', ['Weight Loss', 'Muscle Building', 'Cardiovascular Health', 'Flexibility and Balance', 'Overall Fitness'])
+# Example function or conditional block end
+
+# Ensuring no syntax issues
+print("If this prints, the syntax above is likely fine.")
+
 
     if st.button('Generate Routine'):
         st.markdown("""
