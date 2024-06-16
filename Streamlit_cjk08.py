@@ -85,9 +85,7 @@ elif sidebar_choice == 'Recommendations':
     
     **3. Healthy Alternatives:**
     - Replace smoking with healthy habits such as exercise, chewing gum, or deep breathing exercises.
-    
-    ![Smoking Risks](https://www.cdc.gov/tobacco/basic_information/health_effects/images/health-effects-infographic-600px.png)
-    
+        
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**: 
         - Launch anti-smoking campaigns and provide resources for smoking cessation programs.
