@@ -6,14 +6,14 @@ st.sidebar.title("Navigation")
 sidebar_choice = st.sidebar.radio('Select Analysis', ['Dashboard', 'BMI Calculator', 'Exercise Routine Generator', 'Medication Management', 'Exercises and Eating Healthy', 'Mindfulness and Stress Management', 'Smoking Risks', 'Cholesterol', 'High Blood Pressure', 'Initiatives', 'Success Stories', 'Recommendations'])
 
 if sidebar_choice == 'Dashboard':
-st.subheader('Interactive Tableau Dashboard')
-# Embed Tableau dashboard using an iframe
-tableau_embed_code = """
-<iframe src='https://public.tableau.com/views/Healthcareanalytics-cjk08/DiabetesDashboard-cjk08?:embed=y&:showVizHome=no' width='1300' height='1363' frameborder='0'></iframe>
-"""
-st.markdown(tableau_embed_code, unsafe_allow_html=True)\
-
-st.markdown("""
+    st.subheader('Interactive Tableau Dashboard')
+    # Embed Tableau dashboard using an iframe
+    tableau_embed_code = """
+    <iframe src='https://public.tableau.com/views/Healthcareanalytics-cjk08/DiabetesDashboard-cjk08?:embed=y&:showVizHome=no' width='1300' height='1363' frameborder='0'></iframe>
+    """
+    st.markdown(tableau_embed_code, unsafe_allow_html=True)\
+    
+    st.markdown("""
 The Diabetes Analysis Dashboard provides a comprehensive visualization of diabetes distribution across different age groups and sexes. It offers insights into how diabetes prevalence varies among young adults (18-39 years), middle-aged adults (40-59 years), and older adults (60+ years). The dashboard highlights the following key areas:
 
 1. **Distribution of Survey Participants Across Different Age Groups and Sexes (%)**: This bar chart visualizes the distribution of survey participants across various age groups, segmented by sex. It reveals the demographic spread of the participants, highlighting a significant representation in the 65-69 age group. This data helps in understanding the demographic composition of the survey respondents, which is crucial for ensuring the accuracy and relevance of public health interventions.
