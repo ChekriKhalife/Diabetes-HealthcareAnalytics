@@ -14,8 +14,8 @@ if sidebar_choice == 'Dashboard':
     tableau_embed_code = """
     <iframe src='https://public.tableau.com/views/Healthcareanalytics-cjk08/DiabetesDashboard-cjk08?:embed=y&:showVizHome=no' width='1300' height='1363' frameborder='0'></iframe>
     """
-    st.markdown(tableau_embed_code, unsafe_allow_html=True)\
-    
+    st.markdown(tableau_embed_code, unsafe_allow_html=True)
+
     st.markdown("""
     The Diabetes Analysis Dashboard provides a comprehensive visualization of diabetes distribution across different age groups and sexes. It offers insights into how diabetes prevalence varies among young adults (18-39 years), middle-aged adults (40-59 years), and older adults (60+ years). The dashboard highlights the following key areas:
 
@@ -50,8 +50,6 @@ elif sidebar_choice == 'Recommendations':
     st.markdown("""
     ### 🏥 Comprehensive Health Recommendations
     Achieving and maintaining good health requires a holistic approach that includes managing your BMI, quitting smoking, staying physically active, eating a healthy diet, controlling cholesterol, and managing high blood pressure. Here’s a comprehensive guide to help you achieve your health goals:
-
-    ![Healthy Lifestyle](https://www.cdc.gov/chronicdisease/resources/infographic/preventable/power-of-prevention.jpg)
     
     ### 🏋️‍♂️ Maintain a Healthy BMI
 
@@ -60,8 +58,6 @@ elif sidebar_choice == 'Recommendations':
 
     **2. Manage Your Weight:**
     - If your BMI is outside the healthy range, focus on weight management strategies through a balanced diet and regular exercise.
-
-    ![BMI Categories](https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.png)
 
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**: 
@@ -88,8 +84,6 @@ elif sidebar_choice == 'Recommendations':
     **3. Healthy Alternatives:**
     - Replace smoking with healthy habits such as exercise, chewing gum, or deep breathing exercises.
 
-    ![Smoking Risks](https://www.cdc.gov/tobacco/basic_information/health_effects/images/health-effects-infographic-600px.png)
-
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**: 
         - Launch anti-smoking campaigns and provide resources for smoking cessation programs.
@@ -111,8 +105,6 @@ elif sidebar_choice == 'Recommendations':
 
     **2. Balanced Diet:**
     - Eat a variety of nutrient-rich foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. Limit processed foods, sugars, and unhealthy fats.
-
-    ![Exercise and Healthy Eating](https://www.verywellfit.com/thmb/7m1A9Z6SY_hR8nkp2gBPTrdJdug=/fit-in/1500x1250/filters:no_upscale():max_bytes(150000):strip_icc()/fitness-weightloss-5793d03c3df78c3276e2b45d.jpg)
 
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**: 
@@ -138,8 +130,6 @@ elif sidebar_choice == 'Recommendations':
 
     **3. Medication and Monitoring:**
     - Follow medical advice for cholesterol-lowering medications and regularly monitor your cholesterol levels.
-
-    ![Cholesterol](https://www.cdc.gov/cholesterol/images/what-is-cholesterol-800.jpg)
 
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**: 
@@ -169,8 +159,6 @@ elif sidebar_choice == 'Recommendations':
     **4. Medication and Monitoring:**
     - Adhere to prescribed medications for high blood pressure and regularly check your blood pressure.
 
-    ![High Blood Pressure](https://www.cdc.gov/bloodpressure/images/BloodPressure_Infographic.jpg)
-    
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**: 
         - Implement community screening programs for blood pressure and educate the public about hypertension.
@@ -196,8 +184,6 @@ elif sidebar_choice == 'Recommendations':
     **3. Make Incremental Changes:**
     - Small, consistent changes can lead to significant health improvements. Start with manageable goals and gradually build healthier habits.
 
-    ![Holistic Health](https://www.cdc.gov/chronicdisease/images/infographics/healthy-lifestyle.png)
-
     **Recommendations for Public Health Officials, Healthcare Providers, and Policymakers:**
     - **Public Health Officials**:
         - Promote a holistic approach to health through community programs and public awareness campaigns.
@@ -214,11 +200,7 @@ elif sidebar_choice == 'Recommendations':
 
     ### 📝 Conclusion
     Your health is your most valuable asset. By understanding and managing your BMI, quitting smoking, staying physically active, eating a balanced diet, controlling cholesterol, and managing high blood pressure, you can significantly improve your overall health and quality of life. Start today, take small steps, and stay committed to a healthier you.
-
-    ![Healthy Lifestyle Conclusion](https://www.cdc.gov/chronicdisease/images/infographics/health-impact-infographic-600px.jpg)
     """)
-
-
 
 
 elif sidebar_choice == 'BMI Calculator':
@@ -232,8 +214,6 @@ elif sidebar_choice == 'BMI Calculator':
     - **Indicator of Health**: A high BMI can be an indicator of high body fatness.
     - **Predictor of Disease Risk**: BMI is used to screen for weight categories that may lead to health problems, such as heart disease, diabetes, and hypertension.
     - **Simple and Accessible**: Calculating BMI is straightforward and can be done with basic information about your height and weight.
-
-    ![BMI Categories](https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.png)
 
     **Calculate your BMI below to find out your weight category and get personalized health advice.**
     """)
@@ -296,8 +276,6 @@ elif sidebar_choice == 'Smoking Risks':
     st.markdown("""
     ### 🚭 The Hidden Dangers of Smoking
     Smoking is one of the leading causes of preventable deaths worldwide. It affects nearly every organ in the body, leading to a variety of health issues and chronic diseases. Here’s why smoking is hazardous:
-
-    ![Smoking Risks](https://www.cdc.gov/tobacco/basic_information/health_effects/images/health-effects-infographic-600px.png)
     
     **Health Risks of Smoking:**
     - **Cardiovascular Disease**: Smoking damages blood vessels, leading to heart disease, stroke, and peripheral artery disease.
@@ -305,8 +283,6 @@ elif sidebar_choice == 'Smoking Risks':
     - **Cancer**: Smoking is linked to cancers of the lung, mouth, throat, esophagus, pancreas, bladder, and more.
     - **Diabetes**: Smokers are 30-40% more likely to develop type 2 diabetes.
     - **Weakened Immune System**: Smoking weakens the immune system, making the body more susceptible to infections.
-    
-    ![Health Risks](https://www.verywellhealth.com/thmb/Og3bJW2AX_P4_C5ktMzZOSX7jyk=/1333x1000/smart/filters:no_upscale()/gettyimages-531334777-5c629f6fc9e77c000146e100.jpg)
     
     **Immediate and Long-term Benefits of Quitting Smoking:**
     - **Within 20 Minutes**: Heart rate and blood pressure drop.
@@ -317,8 +293,6 @@ elif sidebar_choice == 'Smoking Risks':
     - **Within 5 Years**: Risk of stroke is reduced to that of a non-smoker.
     - **Within 10 Years**: Risk of lung cancer falls to about half that of a smoker. Risk of other cancers decreases.
     - **Within 15 Years**: Risk of coronary heart disease is that of a non-smoker’s.
-
-    ![Benefits of Quitting Smoking](https://www.cancer.org/content/dam/cancer-org/images/infographics/quit-smoking-benefits-infographic.jpg)
     
     ### 🛑 Strategies to Quit Smoking
 
@@ -336,8 +310,6 @@ elif sidebar_choice == 'Smoking Risks':
 
     **5. Talk to Your Doctor:**
     - Discuss with your healthcare provider about your intention to quit. They can offer support, medications, and resources to help you.
-
-    ![Strategies to Quit Smoking](https://www.quit.org.au/images/default-source/why-quit/quit-strategy.jpg)
     
     ### 🔄 Behavioral Strategies
 
@@ -367,8 +339,6 @@ elif sidebar_choice == 'Smoking Risks':
     **3. Deep Breathing Exercises:**
     - Practice deep breathing exercises to relax and reduce the urge to smoke.
 
-    ![Healthy Alternatives](https://www.verywellmind.com/thmb/PwX1a49Si17iW2EZdYFzL1nH5-8=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-507703741-56b5f17b3df78c0b136c89e3.jpg)
-
     ### 📞 Resources and Support
 
     **1. Quitlines:**
@@ -397,8 +367,6 @@ elif sidebar_choice == 'Smoking Risks':
     **Improved Health:**
     - Over time, you will notice significant improvements in your health. Breathing will become easier, your senses of taste and smell will improve, and your risk of smoking-related diseases will decrease.
 
-    ![What to Expect](https://www.cdc.gov/tobacco/basic_information/quit_smoking/images/graphic/quit-smoking-tips-poster.jpg)
-    
     ### 💡 Conclusion
     Quitting smoking is challenging but incredibly rewarding. By understanding the risks, preparing strategies, and seeking support, you can successfully quit and enjoy a healthier, smoke-free life. Take the first step today towards a healthier future.
     """)
@@ -411,8 +379,6 @@ elif sidebar_choice == 'Exercises and Eating Healthy':
     st.markdown("""
     ### 🏋️‍♂️ The Power of Exercise and Healthy Eating
     Regular physical activity and a balanced diet are cornerstones of a healthy lifestyle. They not only help in maintaining a healthy weight but also reduce the risk of chronic diseases such as diabetes, heart disease, and stroke. Here’s why exercise and healthy eating are essential:
-
-    ![Healthy Lifestyle](https://www.verywellfit.com/thmb/7m1A9Z6SY_hR8nkp2gBPTrdJdug=/fit-in/1500x1250/filters:no_upscale():max_bytes(150000):strip_icc()/fitness-weightloss-5793d03c3df78c3276e2b45d.jpg)
     
     **Benefits of Regular Exercise:**
     - **Weight Control**: Exercise helps prevent excess weight gain and maintain weight loss.
@@ -421,8 +387,6 @@ elif sidebar_choice == 'Exercises and Eating Healthy':
     - **Boosts Energy**: Regular physical activity can improve muscle strength and boost endurance.
     - **Promotes Better Sleep**: Regular physical activity can help you fall asleep faster and deepen your sleep.
 
-    ![Exercise Benefits](https://www.health.harvard.edu/media/content/images/cr/Exercise_and_fitness/18_Health_Benefits_of_Regular_Exercise.jpg)
-    
     ### 🥗 The Importance of Eating Healthy
 
     **1. Provides Essential Nutrients:**
@@ -436,8 +400,6 @@ elif sidebar_choice == 'Exercises and Eating Healthy':
 
     **4. Boosts Immune System:**
     - Foods rich in vitamins and minerals, such as fruits and vegetables, can help strengthen your immune system and keep illnesses at bay.
-
-    ![Healthy Eating](https://www.helpguide.org/wp-content/uploads/fast-foods-candy-cookies-pastries-768.jpg)
     
     ### 🏃‍♀️ Effective Exercise Routines
 
@@ -456,8 +418,6 @@ elif sidebar_choice == 'Exercises and Eating Healthy':
     **4. Balance Exercises:**
     - **Examples**: Tai Chi, balance board exercises, and single-leg stands.
     - **Benefits**: Improves balance and coordination, which can help prevent falls, especially in older adults.
-
-    ![Exercise Routines](https://www.acsm.org/docs/default-source/files-for-resource-library/infographic/physical-activity-and-exercise-infographic.jpg)
     
     ### 🍎 Healthy Eating Tips
 
@@ -484,8 +444,6 @@ elif sidebar_choice == 'Exercises and Eating Healthy':
 
     **8. Choose Lean Proteins:**
     - Opt for lean protein sources such as chicken, fish, beans, and legumes.
-
-    ![Healthy Eating Tips](https://www.eatright.org/-/media/eatrightimages/nutritiontipsheets/101/1018tipsforeatingwell.jpg)
     
     ### 💪 Combining Exercise and Healthy Eating for Optimal Health
 
@@ -504,8 +462,6 @@ elif sidebar_choice == 'Exercises and Eating Healthy':
     **5. Seek Support:**
     - Join a fitness class, find a workout buddy, or consult a nutritionist to stay motivated and get personalized advice.
 
-    ![Healthy Lifestyle](https://www.cdc.gov/diabetes/images/managing/images/diabetes-healthy-living-800px.jpg)
-    
     ### 📈 Tracking Your Progress
 
     **1. Keep a Food Diary:**
@@ -530,15 +486,11 @@ elif sidebar_choice == 'Cholesterol':
     st.markdown("""
     ### 🥼 Understanding Cholesterol
     Cholesterol is a waxy substance found in your blood. Your body needs cholesterol to build healthy cells, but high levels of cholesterol can increase your risk of heart disease. Here's why managing cholesterol is crucial:
-
-    ![Cholesterol](https://www.heart.org/-/media/Healthy-Living-Images/Cholesterol/Cholesterol-101-Infographic.jpg)
     
     **Types of Cholesterol:**
     - **Low-Density Lipoprotein (LDL)**: Known as "bad" cholesterol. High levels of LDL cholesterol can lead to plaque buildup in arteries and result in heart disease and stroke.
     - **High-Density Lipoprotein (HDL)**: Known as "good" cholesterol. HDL cholesterol helps remove LDL cholesterol from the arteries.
     - **Triglycerides**: A type of fat in the blood. High levels of triglycerides can also increase the risk of heart disease.
-
-    ![Types of Cholesterol](https://www.cdc.gov/cholesterol/images/what-is-cholesterol-800.jpg)
 
     ### 💡 Why Cholesterol Matters
 
@@ -558,8 +510,6 @@ elif sidebar_choice == 'Cholesterol':
     - **Eliminate Trans Fats**: Often found in margarines and store-bought cookies, crackers, and cakes.
     - **Increase Omega-3 Fatty Acids**: Found in salmon, mackerel, and flaxseeds. Omega-3s don't affect LDL cholesterol but have other heart benefits.
     - **Eat More Soluble Fiber**: Found in foods like oatmeal, kidney beans, Brussels sprouts, apples, and pears.
-
-    ![Heart-Healthy Foods](https://www.heart.org/-/media/Healthy-Living-Images/Cholesterol/Cholesterol-Food.jpg)
     
     **2. Exercise Regularly:**
     - **Aerobic Exercise**: At least 30 minutes of moderate-intensity exercise, such as brisk walking, on most days of the week.
@@ -586,8 +536,6 @@ elif sidebar_choice == 'Cholesterol':
     - **Oats and Barley**: Contain soluble fiber that can reduce LDL cholesterol.
     - **Fruits and Vegetables**: High in dietary fiber and low in calories.
 
-    ![Cholesterol Diet](https://www.cdc.gov/cholesterol/images/how-can-i-prevent-high-cholesterol-800.jpg)
-
     ### 🏥 Medical Interventions
 
     **1. Medications:**
@@ -601,7 +549,6 @@ elif sidebar_choice == 'Cholesterol':
     ### 📝 Conclusion
     Managing your cholesterol is a key part of maintaining heart health and reducing the risk of serious cardiovascular events. By making dietary changes, increasing physical activity, quitting smoking, and following medical advice, you can effectively control your cholesterol levels and improve your overall health.
 
-    ![Conclusion](https://www.heart.org/-/media/Healthy-Living-Images/Cholesterol/Cholesterol-Happy-Heart.jpg)
     """)
 
 
@@ -612,8 +559,6 @@ elif sidebar_choice == 'High Blood Pressure':
     st.markdown("""
     ### 💓 Understanding High Blood Pressure (Hypertension)
     High blood pressure, or hypertension, is a common condition where the force of the blood against your artery walls is high enough that it may eventually cause health problems, such as heart disease. Here’s why managing high blood pressure is crucial:
-
-    ![High Blood Pressure](https://www.cdc.gov/bloodpressure/images/BloodPressure_Infographic.jpg)
     
     **Why High Blood Pressure Matters:**
     - **Heart Disease and Stroke**: High blood pressure can lead to hardening and thickening of the arteries (atherosclerosis), which can result in heart attack, stroke, or other complications.
@@ -644,8 +589,6 @@ elif sidebar_choice == 'High Blood Pressure':
     - **Increase Potassium**: Foods rich in potassium, such as fruits and vegetables, can lessen the effects of sodium on blood pressure.
     - **Eat Plenty of Fruits and Vegetables**: The DASH (Dietary Approaches to Stop Hypertension) diet is a recommended eating plan to lower or control high blood pressure.
 
-    ![Healthy Diet](https://www.heart.org/-/media/Healthy-Living-Images/Healthy-Eating/dash-diet-750x420.jpg)
-
     **2. Exercise Regularly:**
     - Regular physical activity — such as 150 minutes a week, or about 30 minutes most days of the week — can lower your blood pressure by about 5 to 8 mm Hg if you have high blood pressure.
     - **Aerobic Exercise**: Walking, jogging, cycling, swimming, or dancing.
@@ -663,8 +606,6 @@ elif sidebar_choice == 'High Blood Pressure':
     - **Physical Activity**: Exercise regularly to help manage stress.
     - **Get Enough Sleep**: Quality sleep can play a part in managing blood pressure.
 
-    ![Manage Stress](https://www.verywellmind.com/thmb/Y_sTXzC8G5sdLQBhT6dD0FwWxk8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-relax-3144917-00ee9b849a614ab09d6a1608b5099ab5.png)
-    
     ### 🍽️ High Blood Pressure Diet Tips
 
     **1. Focus on Whole Foods:**
@@ -678,8 +619,6 @@ elif sidebar_choice == 'High Blood Pressure':
 
     **4. Limit Sugar and Refined Carbs:**
     - Reduce your consumption of sugary beverages, candies, and refined carbs that can lead to weight gain and higher blood pressure.
-
-    ![Healthy Diet](https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg)
     
     ### 🏥 Medical Interventions
 
@@ -695,7 +634,6 @@ elif sidebar_choice == 'High Blood Pressure':
     ### 📝 Conclusion
     Managing high blood pressure is crucial for maintaining overall health and preventing serious cardiovascular events. By adopting a healthy lifestyle, making dietary changes, engaging in regular physical activity, and following medical advice, you can effectively control your blood pressure and enhance your quality of life.
 
-    ![Conclusion](https://www.heart.org/-/media/Healthy-Living-Images/Heart-Health/heart-health.jpg)
     """)
 
 elif sidebar_choice == 'Exercise Routine Generator':
@@ -711,7 +649,7 @@ elif sidebar_choice == 'Exercise Routine Generator':
     # Collect user details
     age = st.number_input('Enter your age:', min_value=10, max_value=100)
     weight = st.number_input('Enter your weight (in kg):', min_value=30, max_value=200)
-    height = st.number_input('Enter your height (in cm):', min_value=100, max_value=250)
+    height = st.number_input('Enter your height (in cm):', min_value=100, max_value 250)
     gender = st.selectbox('Select your gender:', ['Male', 'Female', 'Other'])
     fitness_level = st.selectbox('Select Your Fitness Level:', ['Beginner', 'Intermediate', 'Advanced'])
     goals = st.multiselect('Select Your Goals:', ['Weight Loss', 'Muscle Building', 'Cardiovascular Health', 'Flexibility and Balance', 'Overall Fitness'])
@@ -739,8 +677,6 @@ elif sidebar_choice == 'Exercise Routine Generator':
 
             **Sunday**: 
             - **Flexibility**: 20 minutes of yoga or Pilates
-
-            ![Weight Loss Exercise](https://www.verywellfit.com/thmb/4z9Gcs0Ah1KgR8tRdmZ8kZkHh6U=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-539582400-5c7d7f9e46e0fb00012f69cf.jpg)
             """)
 
         if 'Muscle Building' in goals:
@@ -761,8 +697,6 @@ elif sidebar_choice == 'Exercise Routine Generator':
 
             **Sunday**: 
             - **Flexibility**: 25 minutes of advanced yoga poses
-
-            ![Muscle Building Exercise](https://www.verywellfit.com/thmb/1sWyrmgOlyr3SDjUy7yS4pLDG1I=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-915985742-5c3bd73846e0fb0001ea14a0.jpg)
             """)
 
         if 'Cardiovascular Health' in goals:
@@ -783,8 +717,6 @@ elif sidebar_choice == 'Exercise Routine Generator':
 
             **Sunday**: 
             - **Flexibility**: 30 minutes of yoga
-
-            ![Cardiovascular Health Exercise](https://www.verywellfit.com/thmb/RuIuQ71mSgeWJGHviRaG-v_A-Jc=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1046990574-5c7d7f6a46e0fb00013f7ff7.jpg)
             """)
 
         if 'Flexibility and Balance' in goals:
@@ -805,8 +737,6 @@ elif sidebar_choice == 'Exercise Routine Generator':
 
             **Sunday**: 
             - **Flexibility and Balance**: 40 minutes of combined yoga and Tai Chi
-
-            ![Flexibility and Balance Exercise](https://www.verywellfit.com/thmb/xF57S_zK3Rsa8JeGJ2xkMUsNe00=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-944650668-5c3bd6c846e0fb00012a2e7d.jpg)
             """)
 
         if 'Overall Fitness' in goals:
@@ -827,8 +757,6 @@ elif sidebar_choice == 'Exercise Routine Generator':
 
             **Sunday**: 
             - **Flexibility**: 25 minutes of yoga or Pilates
-
-            ![Overall Fitness Exercise](https://www.verywellfit.com/thmb/fnGQz0mYX7qF4VEC8h5X9w-omA0=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048946218-5c7d8e5546e0fb0001ea1735.jpg)
             """)
 
         st.write("Please consult with a healthcare provider before starting any new exercise routine to ensure it's safe and appropriate for your health condition.")
@@ -845,8 +773,6 @@ elif sidebar_choice == 'Mindfulness and Stress Management':
     - Lowers blood pressure
     - Improves mood and mental well-being
 
-    ![Mindfulness](https://www.verywellmind.com/thmb/G-2pS1LOX8qzLxQF5Ol2jipVVAE=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1010198702-5c516dd4c9e77c0001f08d5c.jpg)
-
     ### 🌟 Techniques to Practice Mindfulness
 
     **1. Meditation**
@@ -854,29 +780,19 @@ elif sidebar_choice == 'Mindfulness and Stress Management':
     - **Breathing Meditation**: Focus on your breath, inhaling and exhaling slowly. Count each breath if it helps you concentrate.
     - **Body Scan Meditation**: Focus on different parts of your body, from your toes to your head, noticing any tension and letting it go.
 
-    ![Meditation](https://www.verywellmind.com/thmb/JGkxEl1B4NVG1m03Dh6v1bhyUuI=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1170782157-5e8b0ab6c4e1a3b21f50fa29.jpg)
-
     **2. Deep Breathing Exercises**
     - **Box Breathing**: Inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds, and hold for 4 seconds. Repeat several times.
     - **4-7-8 Breathing**: Inhale for 4 seconds, hold for 7 seconds, and exhale for 8 seconds. This technique can help calm the mind and body.
     - **Diaphragmatic Breathing**: Place one hand on your chest and the other on your abdomen. Breathe deeply so that your abdomen rises more than your chest.
 
-    ![Deep Breathing](https://www.verywellmind.com/thmb/EjG4g14QeHKY9OBfhmsfU5XN9Xk=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1154776458-5d8e51c346e0fb0001e443e8.jpg)
-
     **3. Progressive Muscle Relaxation**
     - Tense and relax different muscle groups in your body, starting from your toes and working up to your head. This helps release physical tension and promotes relaxation.
-
-    ![Progressive Muscle Relaxation](https://www.verywellmind.com/thmb/_px5Mt7wJr3T8Yhd2y4JEMvTnno=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1144138055-5c516e2046e0fb0001e3b8cc.jpg)
 
     **4. Mindful Eating**
     - Pay attention to what you eat, savoring each bite. Notice the flavors, textures, and sensations. This can help you enjoy your food more and prevent overeating.
 
-    ![Mindful Eating](https://www.verywellfit.com/thmb/b5h4Reb8X0P2lt4Um0lNgbd-8_k=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-927619572-5c48d9e7c9e77c0001eb7335.jpg)
-
     **5. Visualization**
     - Close your eyes and imagine a peaceful place, such as a beach or a forest. Use all your senses to make the scene as vivid as possible. This can help reduce stress and improve your mood.
-
-    ![Visualization](https://www.verywellmind.com/thmb/rf0vDLnvNehVbgd9NYy13lXZdf8=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-825443688-5c516ddbc9e77c0001f08d65.jpg)
 
     ### 📝 Create a Mindfulness Routine
 
@@ -891,8 +807,6 @@ elif sidebar_choice == 'Mindfulness and Stress Management':
 
     **4. Keep a Journal**
     - Write about your mindfulness practice and how it makes you feel. Reflect on any changes in your mood or stress levels.
-
-    ![Mindfulness Routine](https://www.verywellmind.com/thmb/yRReoMXqF8cw1y0HXs_PpHdXEas=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-637246080-5c516e2b46e0fb0001e3b8d7.jpg)
 
     ### 💡 Additional Tips for Stress Management
 
@@ -911,8 +825,6 @@ elif sidebar_choice == 'Mindfulness and Stress Management':
     **5. Seek Professional Help**
     - If stress becomes overwhelming, consider seeking help from a mental health professional. Therapy and counseling can provide valuable support and strategies.
 
-    ![Stress Management](https://www.verywellmind.com/thmb/YNIB55HSZ9G9jUQ6GzkxvPvqGUM=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-512298302-5c4a729746e0fb0001ef4e61.jpg)
-    
     ### 📆 Schedule Your Mindfulness Practices
     Use the calendar below to schedule your mindfulness practices and set reminders to help you stay consistent.
     """)
@@ -1019,8 +931,6 @@ elif sidebar_choice == 'Meal Planner':
     - **Yogurt**: A cup of Greek yogurt with a drizzle of honey.
     - **Granola Bar**: A homemade or store-bought granola bar.
     - **Vegetable Sticks**: Carrot and celery sticks with hummus.
-
-    ![Healthy Meal](https://www.eatright.org/-/media/homeimages/eatrightimages/food/nutrition/vegetarianandvegan/healthymealpreparation.jpg)
     """)
 
 elif sidebar_choice == 'Initiatives':
@@ -1029,8 +939,6 @@ elif sidebar_choice == 'Initiatives':
     st.markdown("""
     ### 🤝 Get Involved in Community Initiatives
     Participate in community initiatives to help raise awareness about diabetes, support those affected, and contribute to a healthier society. Below are some initiatives you can join.
-
-    ![Community Initiatives](https://www.verywellmind.com/thmb/xF57S_zK3Rsa8JeGJ2xkMUsNe00=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-944650668-5c3bd6c846e0fb00012a2e7d.jpg)
     """)
 
     # List of initiatives
@@ -1172,8 +1080,6 @@ elif sidebar_choice == 'Success Stories':
     st.markdown("""
     ### 🌟 Read and Share Success Stories
     Get inspired by reading success stories from others who have successfully managed diabetes and improved their health. Share your own story to motivate others.
-
-    ![Success Stories](https://www.diabetes.org/sites/default/files/styles/paragraph_half_width_600/public/2020-12/diabetes_story.jpg)
     """)
 
     # Sample success stories
@@ -1227,4 +1133,3 @@ elif sidebar_choice == 'Success Stories':
 if __name__ == "__main__":
     # This block is not necessary since st.set_page_config() is already called at the beginning
     pass
-
